@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="http://showcase.revature.com/foodar100/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet" type="text/css">
+<style>
+	.name{
+		width: 20%;
+		float: left;
+	}
+	nav.menu{ 
+	  position: absolute;
+	  top: 8px;
+	  right: 16px;
+	  float: right;
+	}
+	#feature{
+		  width: 100%;
+	    height: 100%;
+	    background: url('03.jpg');
+	    background-size: cover;
+	    position: relative;
+	}
+	div.centered 
+	{
+	  position: absolute;
+	  top: 50%;
+	  left: 45%;
+	  transform: translate(-50%, -50%);
+	  color: white; font-size:30pt;
+	}
+	
+	.centered h2{
+		margin: 0 auto;
+	    padding: 0;
+	    position: relative;
+	    top: 25%;
+	    text-align: center;
+	    text-transform: uppercase;
+	    color: white;
+	    font-size: 40pt;
+	    padding: 2em;
+	    text-shadow: 1px 1px 1px black;
+	}
+	section.container{
+		min-height: 100%;
+	}
+	div.container{ 
+
+		left:0;
+		bottom: 0;
+		width: 100%;
+		background-color: red;
+		color: white;
+		padding: 20px;
+		text-align: center;
+	}
+	.findus{
+		background: url("");
+		position: relative;
+		color: black;
+		text-shadow: 1px 0 0 black;
+		height: 350px;
+		
+	}
+	footer{
+		padding: 0;
+	}
+	.foot-title h5:hover{
+		color: yellow;
+	}
+	.foot-menu ul li a:hover{
+		color: yellow;
+	}
+	.menu ul li a:hover{
+		color: yellow;
+	}
+
+
+</style>
+</head>
+<body>
+	<header>
+		<div class="name">
+			<a href="http://showcase.revature.com/foodar100/index.html">
+				<img src="foodar.png" alt="logo">
+			</a>
+		</div>
+		<div class ="menu">
+			<ul>
+				<li>
+					<a href="http://showcase.revature.com/foodar100/register.html">Signin/Register</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+<section id="feature" class="container">
+	<div class="centered"><h2>Try A New Meal Today</h2></div>
+</section>
+<section id="yourCity" class="findus" >
+		<div class="wrapper">
+			<h3>Find a driver near you!</h3>
+			<p>Type in your zipcode below and click GO! to find a driver near you</p>
+			<div class="inp-grp">
+				<input id="cityZip" type="number" class="inp-wd">
+				<input id="cityChecker" type="submit" value="Go">
+				<div id="cityCheck"></div>
+			</div>
+		</div>
+</section>
+<footer>
+		<div class="container">
+			<div id="sitemap" class="sitemap">
+				<div class="foot-title">
+					<h5>Site Map</h5>
+				</div>
+				<ul>
+					<li><a href="http://showcase.revature.com/foodar100/index.html">Home</a></li>
+					<li><a href="http://showcase.revature.com/foodar100/register.html">Register</a></li>
+					<li><a href="http://showcase.revature.com/foodar100/about.html">How it All Works</a></li>
+				</ul>
+			</div>
+			<div id="sitemap" class="foot-menu">
+				<div class="foot-title">
+					<h5>Legal</h5>
+				</div>
+				<ul>
+					<li><a>Privacy Policy</a></li>
+					<li><a>Terms & Conditions</a></li>
+				</ul>
+				
+			</div>
+            <div id="sitemap" class="sitemap">
+				<div class="foot-title">
+					<h5>Have a good day :)</h5>
+				</div>
+			</div>
+           <div class="clear"></div>
+		   <section class="copy">
+			<p>© 2020. All rights reserved. </p>
+		</section>
+		</div>
+		
+	</footer>
+
+</body>
+</html>
